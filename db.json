@@ -1,0 +1,264 @@
+{
+  "location": [
+    {
+      "id": 1,
+      "name": "Location 1",
+      "latitude": "40.7128",
+      "longitude": "74.0060"
+    },
+    {
+      "id": 2,
+      "name": "Location 2",
+      "latitude": "50.7128",
+      "longitude": "84.0060"
+    },
+    {
+      "id": 3,
+      "name": "Location 3",
+      "latitude": "60.7128",
+      "longitude": "94.0060"
+    }
+  ],
+  "wind": [
+  {
+      "id": 1,
+      "location_id": 1,
+      "speed": 10,
+      "direction": 90,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "location_id": 1,
+      "speed": 20,
+      "direction": 180,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 3,
+      "location_id": 1,
+      "speed": 30,
+      "direction": 270,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 4,
+      "location_id": 2,
+      "speed": 40,
+      "direction": 40,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "location_id": 2,
+      "speed": 50,
+      "direction": 180,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 6,
+      "location_id": 2,
+      "speed": 60,
+      "direction": 90,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 7,
+      "location_id": 3,
+      "speed": 40,
+      "direction": 0,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "location_id": 3,
+      "speed": 30,
+      "direction": 180,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 9,
+      "location_id": 3,
+      "speed": 15,
+      "direction": 270,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    }
+  ],
+  "temperature": [
+    {
+      "id": 1,
+      "location_id": 1,
+      "temperature": 30,
+      "unit": "C",
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "location_id": 1,
+      "temperature": 25,
+      "unit": "C",
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 3,
+      "location_id": 1,
+      "temperature": 20,
+      "unit": "C",
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 4,
+      "location_id": 2,
+      "temperature": 5,
+      "unit": "C",
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "location_id": 2,
+      "temperature": 10,
+      "unit": "C",
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 6,
+      "location_id": 2,
+      "temperature": 15,
+      "unit": "C",
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 7,
+      "location_id": 3,
+      "temperature": 20,
+      "unit": "C",
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "location_id": 3,
+      "temperature": 20,
+      "unit": "C",
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 9,
+      "location_id": 3,
+      "temperature": 20,
+      "unit": "C",
+      "created_at": "2017-01-01T00:02:00.000Z"
+    }
+  ],
+  "air_quality": [
+    {
+      "id": 1,
+      "location_id": 1,
+      "quality": 50,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "location_id": 1,
+      "quality": 100,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 3,
+      "location_id": 1,
+      "quality": 150,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 4,
+      "location_id": 2,
+      "quality": 10,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "location_id": 2,
+      "quality": 20,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 6,
+      "location_id": 2,
+      "quality": 30,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 7,
+      "location_id": 3,
+      "quality": 100,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "location_id": 3,
+      "quality": 120,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 9,
+      "location_id": 3,
+      "quality": 80,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    }
+  ],
+  "cloudiness": [
+    {
+      "id": 1,
+      "location_id": 1,
+      "cloudiness": 0,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "location_id": 1,
+      "cloudiness": 2,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 3,
+      "location_id": 1,
+      "cloudiness": 4,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 4,
+      "location_id": 2,
+      "cloudiness": 8,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "location_id": 2,
+      "cloudiness": 6,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 6,
+      "location_id": 2,
+      "cloudiness": 4,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    },
+    {
+      "id": 7,
+      "location_id": 3,
+      "cloudiness": 0,
+      "created_at": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "location_id": 3,
+      "cloudiness": 0,
+      "created_at": "2017-01-01T00:01:00.000Z"
+    },
+    {
+      "id": 9,
+      "location_id": 3,
+      "cloudiness": 0,
+      "created_at": "2017-01-01T00:02:00.000Z"
+    }
+  ]
+}
